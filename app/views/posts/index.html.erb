@@ -1,4 +1,6 @@
+<%= link_to "トップ", "/" %>
 <% @posts.each do |post| %>
-<%= post.id  %>
-<%= post.title %>
+<p><%= post.id  %>
+<%= post.title %><br>
+<%= post.text %></p>
 <% end %>

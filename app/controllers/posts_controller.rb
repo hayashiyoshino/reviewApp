@@ -20,7 +20,7 @@ class PostsController < ApplicationController
 
 private
 def post_params
-params.permit(:genre, :title, :review)
+params.permit(:genre, :title, :text)
   end
 
 
